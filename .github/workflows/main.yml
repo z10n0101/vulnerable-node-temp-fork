@@ -23,6 +23,7 @@ jobs:
         with:
           debug: 'false'
           client: 'demo'
+          ignore: 'public'
           upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
